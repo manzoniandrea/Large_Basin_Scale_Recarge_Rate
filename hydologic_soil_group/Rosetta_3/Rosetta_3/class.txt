@@ -1,0 +1,1 @@
+GKsat_R = (Ksat_R_img>250)*4+((Ksat_R_img>160)*(Ksat_R_img<=250))*3+((Ksat_R_img>100)*(Ksat_R_img<=160))*2+((Ksat_R_img>0)*(Ksat_R_img<=100))*1+(Ksat_R_img<=0)*-1
