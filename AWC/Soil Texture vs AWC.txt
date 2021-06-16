@@ -1,0 +1,15 @@
+Soil texture	Available water capacity (inches per foot of thickness)
+Sand	1.20
+Loamy sand	1.40
+Sandy loam	1.60
+Fine sandy loam	1.80
+Very fine sandy loam	2.00
+Loam	2.20
+Silt loam	2.40
+Silt	2.55
+Sandy clay loam	2.70
+Silty clay loam	2.85
+Clay loam	3.00
+Sandy clay	3.20
+Silty clay	3.40
+Clay	3.60
