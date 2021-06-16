@@ -35,4 +35,3 @@ Westenbroek, S.M., Kelson, V.A., Dripps, W.R., Hunt, R.J., and Bradbury,  K.R. 2
 Jyrkma, M.I., and Sykes, J.F. 2007, The impact of climate change on spatially varying groindwater recharge in the GradnRiver watershed (Ontario) Journal of Hydrology , v.338, no. 3-4, p.273-250. 
 
 Dripps, W.R., 2003, The spatial and temporal variability  of groundwater recharge within the Troit lake basin of northern Wisconsin 
-![image](https://user-images.githubusercontent.com/85993642/122199976-e65be680-ce9a-11eb-8d7f-d119f674eceb.png)
