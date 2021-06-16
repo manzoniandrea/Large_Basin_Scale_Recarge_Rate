@@ -33,7 +33,7 @@ It is planned to use the Copernicus Atmospheric Monitoring Service to implement 
 The project is uploaded to allow the community to integrate input with a possible long-term goal of a European-wide implementation.
 
 
-# Refences 
+# References 
 
 Westenbroek, S.M., Kelson, V.A., Dripps, W.R., Hunt, R.J., and Bradbury,  K.R. 2009 SWB-A modified Thornthwaite-Mather Soil-Water-Balance code for estimating groundwater recharge, Techniques and Methods 6-A31, Groundwater Resources Program.
 
