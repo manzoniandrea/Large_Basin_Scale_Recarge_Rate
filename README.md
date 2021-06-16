@@ -12,20 +12,25 @@ The United States Geological Survey (USGS) has developed the Soil Water Balance 
 rehcarge=(precipitation+snowmelt+inflow)−(interception+outflow+evotranspiration)−∆soil moisture 
 
 Required input data includes tabular and  gridded data files: 
-	• Land used (integer Grid).
-The idea is to use CORINE Land Cover (Copernicus) data to generate a grid with the required information on land uses. 
+
+	• Land used (integer Grid). The idea is to use CORINE Land Cover (Copernicus) data to generate a grid with the required information on land uses. 
+	
 	• Hydrologic soil Group (integer grid).
 	The hydrological Group is based on the potential runoff estimation. The soil is associated to one of the 4 hydrological group A,B,C or D from the highest infiltration soil to the lowest. The main parameter used to evaluate the hydrological group is the saturated soil permeability (Ksat) which can be estimated relying on available Pedo-transfer functions (PTF). There exist many PTF in literature which can be divided in two main categories: data driven PTF and Physical based PTF. The idea is to choose appropriate PTFs based on the required input data and by looking at similar studies. The selected PTFs will be calibrated, validated, and compared using some local in-situ information provided by local authorities (i.e., APRAV and ARPAE).
+	
 	• Surface water Flow direction (integer grid).
 	The surface water flow direction is toward the neighboring grid cell that has lower elevation and will be evaluated using the Digital Elevation Model.
+	
 	• Available soil-water capacity (real number grid).
 	The information used to assess Ksat includes at least the soil type. It can be also used to calculate the available soil water capacity (Dripps 2003). 
+	
 	• Land use (Lookup Table) and Soil moisture retention table.
 	For the land use and soil moisture retention table, information will be taken from similar data used in other studies or from information provided by regional and local authorities.
+	
 	• Climate data (tabular or gridded data)
 It is planned to use the Copernicus Atmospheric Monitoring Service to implement gridded climate input data.
 
-The project will be uploaded to a git hub repository to allow the community to integrate input with a possible long-term goal of a European-wide implementation.
+The project is uploaded to allow the community to integrate input with a possible long-term goal of a European-wide implementation.
 
 
 # Refences 
