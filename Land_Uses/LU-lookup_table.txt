@@ -1,0 +1,46 @@
+Land use code	Land  use description	Assumed impervious area	Land  use description				Maximum infiltration rates				Interception storage value		Depth of root-zone				References	
+			A	B	C	D	A	B	C	D	(growing season)	(Non-growing season)	A	B	C	D	Reference (CN)	Reference (Root Depth)
+111	Commercial and business (85% imp.) [Tessuto urbano continuo]	0.85	89	92	94	95	2	0.6	0.24	0.12	0.0625	0	3.33	3.33	3.33	2.22	210-VI-TR-55 Second Ed. June 1986	2/3 of Table 10, TM 1957
+112	1//8 acre or less (town houses) (65% imp.)/small> [Tessuto urbano discontinuo]	0.65	77	85	90	92	2	0.6	0.24	0.12	0.0625	0	2	2	2	2	USDA 1986	2/3 of Table 10, TM 1958
+121	Industrial (72% imp. ) [Unità industriali o commerciali]	0.72	81	88	91	93	2	0.6	0.24	0.12	0.0625	0	2	2	2	2	USDA 1986	2/3 of Table 10, TM 1959
+122	Paved parking lots, roofs, driveways, etc. [Reti di strade e binari e territori associati]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	USDA 1986	2/3 of Table 10, TM 1960
+123	Paved parking lots, roofs, driveways, etc. [Aree portuali]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	USDA 1986	2/3 of Table 10, TM 1961
+124	Paved parking lots, roofs, driveways, etc. [Aeroporti]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	USDA 1986	2/3 of Table 10, TM 1962
+131	Gravel (including right of way) [Luoghi di estrazioni di minerali]	**	87.2	92	94.7	95.8	2	0.6	0.24	0.12	0	0	1	1	1	1	USDA 1986	2/3 of Table 10, TM 1963
+132	Industrial (72% imp. ) [Discariche]	0.72	81	88	91	93	2	0.6	0.24	0.12	0.0625	0	2	2	2	2	USDA 1986	2/3 of Table 10, TM 1964
+133	Newly graded areas (pervious areas only, no vegetation) [Luoghi di costruzione]	**	77	86	91	94	2	0.6	0.24	0.12	0.09	0	1.11	1.21	0.67	0.93	USDA 1986	2/3 of Table 10, TM 1965
+141	Fair condition (grass cover 50 to 75%) [Aree di verde urbano]	**	49	69	79	84	2	0.6	0.24	0.12	0	0	3.33	3.33	3.33	2.22	210-VI-TR-55 Second Ed. June 1986	2/3 of Table 10, TM 1957
+142	Poor condition (grass cover <50%) [strutture di sport e tempo libero]	**	68	79	86	89	2	0.6	0.24	0.12	0	0					USDA 1986	2/3 of Table 10, TM 1958
+211	Contoured (C) [Seminativi non irrigati]	**	61	73	81	84	2	0.6	0.24	0.12	0	0	3.33	3.61	3.4	2.11	210-VI-TR-55 Second Ed. June 1986	2/3 of Table 10, TM 1959
+212	Straight row (SR) [Suolo permanentemente irrigato]	**	67	78	85	89	2	0.6	0.24	0.12	0	0	3.33	3.61	3.4	2.11	210-VI-TR-55 Second Ed. June 1986	2/3 of Table 10, TM 1960
+213	Contoured & terraced (C&T) [Risaie]	**	62	71	78	81	2	0.6	0.24	0.12	0.09	0	1.67	2	0.63	1.67	USDA 1986	2/3 of Table 10, TM 1961
+221	Crop residue cover [Vigneti]	**	76	85	90	93	2	0.6	0.24	0.12	0.09	0	3.33	3.61	3.4	2.11	USDA 1986	2/3 of Table 10, TM 1962
+222	Woods-grass combination (orchard or tree farm) [Frutteti e frutti minori]	**	43	65	76	82	2	0.6	0.24	0.12	0.05	0	5.37	5.37	3.47	2.59	USDA 1986	2/3 of Table 10, TM 1963
+223	Woods-grass combination (orchard or tree farm) [Oliveti]	**	43	65	76	82	2	0.6	0.24	0.12	0.05	0	5.37	5.37	3.47	2.59	USDA 1986	2/3 of Table 10, TM 1964
+231	Pasture, grassland, or range-continuous forage for grazing. [Pascoli]	**	83	86	88	89	2	0.6	0.24	0.12	0.09	0	3.33	3.61	3.4	2.11	210-VI-TR-55 Second Ed. June 1986	2/3 of Table 10, TM 1957
+241	Small grain [Colture annuali associate a colture permanenti]	**	61	73	81	84	2	0.6	0.24	0.12	0.09	0	3.05	3.33	2.73	2	210-VI-TR-55 Second Ed. June 1986	2/3 of Table 10, TM 1958
+242	Small grain [Coltivazione complessa]	**	61	73	81	84	2	0.6	0.24	0.12	0.09	0	3.05	3.33	2.73	2	210-VI-TR-55 Second Ed. June 1987	2/3 of Table 10, TM 1959
+243	Small grain [Suoli principalmente occupati dall'agricoltura]	**	61	73	81	84	2	0.6	0.24	0.12	0.09	0	3.05	3.33	2.73	2	210-VI-TR-55 Second Ed. June 1988	2/3 of Table 10, TM 1960
+244	Small grain [Aree di agro selvicoltura]	**	43	65	76	82	2	0.6	0.24	0.12	0.09	0	3.05	3.33	2.73	2	210-VI-TR-55 Second Ed. June 1986	2/3 of Table 10, TM 1961
+311	Woods [Foreste a latifoglie]	**	32	50	60	68.5	2	0.6	0.24	0.12	0.05	0	2	1.97	1.74	1.82	210-VI-TR-55 Second Ed. June 1987	2/3 of Table 10, TM 1962
+312	Woods [Foreste a conifere]	**	39.1	55	64	71.4	2	0.6	0.24	0.12	0.05	0	2	1.97	1.74	1.82	SCS Nat Eng Handbook Section 4, 1964	2/3 of Table 10, TM 1963
+313	Woods [Foreste miste]	**	46.2	60	73	79	2	0.6	0.24	0.12	0.05	0	2.67	2.79	2.17	2.61	SCS Nat Eng Handbook Section 4, 1965	2/3 of Table 10, TM 1964
+321	Pasture, grassland, or range-continuous forage for grazing. [Prateria naturale]	**	49	69	79	84	2	0.6	0.24	0.12	0.09	0	3.33	3.33	3.33	2.22	210-VI-TR-55 Second Ed. June 1986	2/3 of Table 10, TM 1957
+322	Pasture, grassland, or range-continuous forage for grazing. [Lande e brugheria]	**	49	69	79	84	2	0.6	0.24	0.12	0.09	0	3.33	3.33	3.33	2.23	210-VI-TR-55 Second Ed. June 1987	2/3 of Table 10, TM 1958
+323	Brush-brush-weedgrass mixture with brush the major element [Vegetazione sclerofila]	**	35	56	70	77	2	0.6	0.24	0.12	0.0625	0	3.33	3.33	3.33	2.22	SCS Nat Eng Handbook Section 4, 1964	"Table 10, TM 1957; Deep-rooted crops"
+324	Brush-brush-weedgrass mixture with brush the major element [Transizione suolo boscoso/arbusti]	**	35	56	70	77	2	0.6	0.24	0.12	0.0625	0	3.33	3.33	3.33	2.23	SCS Nat Eng Handbook Section 4, 1965	"Table 10, TM 1957; Deep-rooted crops"
+331	12% imp. [Spiagge, dune e piani di sabbia]	1.12	46	65	77	82	2	0.6	0.24	0.12	0	0	3.33	3.33	3.33	2.22	210-VI-TR-55 Second Ed. June 1986	2/3 of Table 10, TM 1957
+332	Artificial desert landscaping [Roccia nuda]		96	96	96	96	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1958
+333	Natural desert landscaping (pervious area only) [Aree scarsamente vegetate]		63	77	85	88	2	0.6	0.24	0.12	0	0	0	0	0	0	USDA 1986	2/3 of Table 10, TM 1959
+334	Natural desert landscaping (pervious area only) [Aree bruciate]		63	77	85	88	2	0.6	0.24	0.12	0	0	0	0	0	0	USDA 1986	2/3 of Table 10, TM 1960
+335	Impervious surfaces, water bodies [Ghiacciai e nevi perenni]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1961
+411	Impervious surfaces, water bodies [Paludi interne]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1962
+412	Impervious surfaces, water bodies [Torbiere]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1963
+421	Impervious surfaces, water bodies [Paludi di sale]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1964
+422	Impervious surfaces, water bodies [Saline]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1965
+423	Impervious surfaces, water bodies [Piani intertidali]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1966
+511	Impervious surfaces, water bodies [Corsi d'acqua]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1967
+512	Impervious surfaces, water bodies [Corpi d'acqua]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1968
+521	Impervious surfaces, water bodies [Lagune costiere]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1969
+522	Impervious surfaces, water bodies [Estuari]	**	98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1970
+523	Impervious surfaces, water bodies [Mare]		98	98	98	98	2	0.6	0.24	0.12	0	0	0	0	0	0	Dripps	2/3 of Table 10, TM 1971
