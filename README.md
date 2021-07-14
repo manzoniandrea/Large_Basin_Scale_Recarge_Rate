@@ -43,6 +43,9 @@ For more details on the models implemented in SWB and input requirements please 
 Before running the demonstration you can generate or download the input data using the python notebooks available in the other folders. The notebooks describe the codes to generate the input, or the method used to generate them. The folders already contain all the input to run the codes for the demonstration case.
 The result to be obtained are already loaded in the Demo_and_swb_executable.zip file (except for the climate data).
 
+# note:
+The notebook (except the one contained in the Demo_and_swb_executable folder) has been prepared and tested using Google Colab. If executed of line it may be necessary to install some libraries.
+
 
 # References 
 
