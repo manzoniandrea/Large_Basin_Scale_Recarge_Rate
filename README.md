@@ -33,10 +33,13 @@ It is planned to use the Copernicus Atmospheric Monitoring Service to implement 
 The project is uploaded to allow the community to integrate input with a possible long-term goal of a European-wide implementation.
 
 # Instructions:
-The Demo_and_swb_executable folder contains the code to evaluate the recharge. The code is the one available on the USGS website (https://www.usgs.gov/software/swb-modified-thornthwaite-mather-soil-water-balance-code-estimating-groundwater-recharge). 
+The Demo_and_swb_executable folder contains the code to evaluate the recharge. The code is the one available on the USGS website (https://www.usgs.gov/software/swb-modified-thornthwaite-mather-soil-water-balance-code-estimating-groundwater-recharge).
+
 The folder contains a .zip file. The zipped folder contains SWB.exe and all the folder placed correctly to allow the code to access to the input and set up files. The files to run a demonstration case for the Po river basin are already placed in the correct folders (except for the climate data).
 To execute the code and prepare the input please follow the README.txt contained in the folder.
+
 For more details on the models implemented in SWB and input requirements please refer to the User Guides and Technical Information in Westenbroek, S.M., Kelson, V.A., Dripps, W.R., Hunt, R.J., and Bradbury, K.R., 2010, SWB-A modified Thornthwaite-Mather Soil-Water-Balance code for estimating groundwater recharge: U.S. Geological Survey Techniques and Methods 6-A31, 60 p.
+
 Before running the demonstration you can generate or download the input data using the python notebooks available in the other folders. The notebooks describe the codes to generate the input, or the method used to generate them. The folders already contain all the input to run the codes for the demonstration case.
 The result to be obtained are already loaded in the Demo_and_swb_executable.zip file (except for the climate data).
 
