@@ -1,0 +1,59 @@
+#		Maximum					First day	Last day	L	L	L	L	L	L	Max	Measures of															Plant Stress	GDD	GDD	Maximum	Irrigation	Irrigation	Irrigation amount	Fraction of	Application_scheme	Fractional
+#		Crop	Kcb	Kcb	Kcb	Kcb	of growing	of growing	planting	initial	dev	mid	late	fallow	duration (length) 	Growth	REW	REW	REW	REW	REW	REW	REW	TEW	TEW	TEW	TEW	TEW	TEW	TEW	Depletion	Base 	Max	Allowable	Start	End	per application	Irrigation	scheme	Irrigation
+# LU	Description	Height (feet)	initial	mid	late	min	season	season	"(DOY/GDD, or mm/dd)"	(DOY/GDD)	(DOY/GDD)	(DOY/GDD)	(DOY/GDD)	(DOY/GDD)	of irrigation	('DOY' or 'GDD')	A SOILS	B SOILS	C SOILS	D SOILS	A/D	B/D	Null	A SOILS	B SOILS	C SOILS	D SOILS	A/D	B/D	Null	Fraction	Temperature (F) 	Temperature (F)	Depletion	Date	Date	inches	from GW		Efficiency (GW)
+LU_Code_2	Description_2	Mean_Plant_Height	KCB_ini	KCB_mid	KCB_end	KCB_min	First_day_of_growing_season	Last_day_of_growing_season	Planting_date	L_ini	L_dev	L_mid	L_late	L_fallow	Irrigation_length	NA	REW 1	REW 2	REW 3	REW 4	REW 5	REW 6	REW 7	TEW 1	TEW 2	TEW 3	TEW 4	TEW 5	TEW 6	TEW 7	Depletion_Fraction	GDD_Base	GDD_Max	MAD	Irrigation_Start	Irrigation_End	Application_amount	Fraction_irrigation_from_GW	Application_scheme	Irrigation_application_efficiency
+111	Commercial and business (85% imp.) [Tessuto urbano continuo]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+112	1//8 acre or less (town houses) (65% imp.)/small> [Tessuto urbano discontinuo]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+121	Industrial (72% imp. ) [Unit? industriali o commerciali]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+122	"Paved parking lots, roofs, driveways, etc. [Reti di strade e binari e territori associati]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+123	"Paved parking lots, roofs, driveways, etc. [Aree portuali]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+124	"Paved parking lots, roofs, driveways, etc. [Aeroporti]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+131	Gravel (including right of way) [Luoghi di estrazioni di minerali]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+132	Industrial (72% imp. ) [Discariche]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+133	"Newly graded areas (pervious areas only, no vegetation) [Luoghi di costruzione]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+141	Fair condition (grass cover 50 to 75%) [Aree di verde urbano]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+142	Poor condition (grass cover <50%) [strutture di sport e tempo libero]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+211	 Common wheat	3.25	0.3	1.15	0.25	0.01	133	268	05/01	40	30	40	20	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	05/01	09/09	0.5	1	constant	0.75
+212	 Durum wheat 	3.25	0.3	1.15	0.25	0.01	133	268	05/01	40	30	40	20	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	05/01	09/09	0.5	1	constant	0.75
+213	 Barley	3.25	0.3	1.15	0.25	0.01	133	268	05/01	40	30	40	20	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	05/01	09/09	0.5	1	constant	0.75
+214	 Rye	3.25	0.3	1	0.55	0.01	133	268	05/01	20	30	60	40	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	05/01	09/29	0.5	1	constant	0.75
+215	 Oats	3.25	0.3	1.15	0.25	0.01	133	268	05/01	40	30	40	20	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	05/01	09/09	0.5	1	constant	0.75
+216	 Maize	6.5	0.3	1.2	0.6	0.01	133	268	04/01	30	40	50	30	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	04/01	08/30	0.5	1	constant	0.75
+217	 Rice	3.25	1.05	1.2	0.75	0.01	133	268	05/01	30	30	60	30	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.5	50	130	0.5	05/01	09/29	0.5	1	constant	0.75
+218	 Triticale	3.25	0.3	1	0.55	0.01	133	268	05/01	20	30	60	40	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	05/01	09/29	0.5	1	constant	0.75
+219	 Other cereals 	3.25	0.3	1.15	0.4	0.01	133	268	03/01	20	30	60	40	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.45	50	130	0.45	03/01	07/30	0.5	1	constant	0.75
+221	 Potatoes	1.64	0.5	1.15	0.754	0.01	133	268	03/01	30	35	50	30	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.45	50	130	0.45	03/01	07/25	0.5	1	constant	0.75
+222	 Sugar beet	10	0.4	1.25	0.75	0.01	133	268	03/01	25	35	50	50	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	03/01	08/09	0.5	1	constant	0.75
+223	 Other root crops	1.64	0.5	1.1	0.95	0.01	133	268	04/01	25	35	50	50	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.35	50	130	0.35	04/01	09/09	0.5	1	constant	0.75
+230	 Other non permanent industrial crops	1.31	0.5	1	0.8	0.01	133	268	03/01	25	35	50	50	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.45	50	130	0.45	03/01	08/09	0.5	1	constant	0.75
+231	 Sunflower 	1.31	0.35	1	0.35	0.01	133	268	04/01	25	35	45	25	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.45	50	130	0.45	04/01	08/10	0.5	1	constant	0.75
+232	 Rape and turnip rape 	2.62	0.01	1	0.25	0.01	133	268	04/01	0	60	40	80	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.45	50	130	0.45	04/01	09/29	0.5	1	constant	0.75
+233	 Soya	1.64	0.1	1.15	0.5	0.01	133	268	05/01	20	35	60	25	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.5	50	130	0.5	05/01	09/19	0.5	1	constant	0.75
+240	 Dry pulses	1.31	0.4	1.15	0.35	0.01	133	268	05/01	25	25	30	20	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.45	50	130	0.45	05/01	08/10	0.5	1	constant	0.75
+241	Small grain [Colture annuali associate a colture permanenti]	3.25	0.3	1	0.55	0.01	133	268	05/01	20	30	60	40	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	05/01	09/29	0.5	1	constant	0.75
+242	Small grain [Coltivazione complessa]	3.25	0.3	1	0.55	0.01	133	268	05/01	20	30	60	40	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	05/01	09/29	0.5	1	constant	0.75
+243	Small grain [Suoli principalmente occupati dall'agricoltura]	3.25	0.3	1	0.55	0.01	133	268	05/01	20	30	60	40	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	05/01	09/29	0.5	1	constant	0.75
+244	Small grain [Aree di agro selvicoltura]	3.25	0.3	1	0.55	0.01	133	268	05/01	20	30	60	40	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.55	50	130	0.55	05/01	09/29	0.5	1	constant	0.75
+311	Woods [Foreste a latifoglie]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+312	Woods [Foreste a conifere]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+313	Woods [Foreste miste]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+321	"Pasture, grassland, or range-continuous forage for grazing. [Prateria naturale]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+322	"Pasture, grassland, or range-continuous forage for grazing. [Lande e brugheria]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+323	Brush-brush-weedgrass mixture with brush the major element [Vegetazione sclerofila]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+324	Brush-brush-weedgrass mixture with brush the major element [Transizione suolo boscoso/arbusti]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+331	"12% imp. [Spiagge, dune e piani di sabbia]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+332	Artificial desert landscaping [Roccia nuda]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+333	Natural desert landscaping (pervious area only) [Aree scarsamente vegetate]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+334	Natural desert landscaping (pervious area only) [Aree bruciate]	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+335	"Impervious surfaces, water bodies [Ghiacciai e nevi perenni]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+350	 Orchads and grapes	6	0.3	0.7	0.45	0.01	133	268	01/01	30	60	40	80	1	9999	DOY	0.196	0.295	0.393	0.472	0.196	0.472	0.472	0.354	0.669	0.906	1.063	0.354	1.063	1.063	0.6	50	130	0.6	01/01	07/30	0.5	1	constant	0.75
+411	"Impervious surfaces, water bodies [Paludi interne]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+412	"Impervious surfaces, water bodies [Torbiere]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+421	"Impervious surfaces, water bodies [Paludi di sale]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+422	"Impervious surfaces, water bodies [Saline]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+423	"Impervious surfaces, water bodies [Piani intertidali]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+511	"Impervious surfaces, water bodies [Corsi d'acqua]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+512	"Impervious surfaces, water bodies [Corpi d'acqua]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+521	"Impervious surfaces, water bodies [Lagune costiere]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+522	"Impervious surfaces, water bodies [Estuari]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
+523	"Impervious surfaces, water bodies [Mare]"	1	1	1	1	1	133	268	05/01	15	27	57	35	1	9999	DOY	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	150	130	1	05/01	09/13	0	1	none	1
